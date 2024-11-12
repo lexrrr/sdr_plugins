@@ -1,0 +1,1 @@
+<add key="TV" value="SDRSharp.TV.TVPlugin,SDRSharp.TV" />

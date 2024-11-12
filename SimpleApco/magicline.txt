@@ -1,0 +1,1 @@
+<add key="APCO" value="SDRSharp.APCO.APCOPlugin,SDRSharp.APCO" /> 

@@ -1,0 +1,1 @@
+    <add key="FrequencyLock" value="SDRSharp.FrequencyLock.FrequencyLockPlugin,SDRSharp.FrequencyLock" />

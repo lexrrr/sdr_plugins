@@ -1,0 +1,1 @@
+     <add key="Calico" value="SDRSharp.Calico.CalicoPlugin,SDRSharp.Calico" />

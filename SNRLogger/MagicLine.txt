@@ -1,0 +1,1 @@
+  <add key="SNR Logger" value="SDRSharp.SNRLogger.SNRLoggerPlugin,SDRSharp.SNRLogger" />

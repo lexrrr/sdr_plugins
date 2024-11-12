@@ -1,0 +1,1 @@
+<add key="DSD" value="SDRSharp.DSD.DSDPlugin,SDRSharp.DSD" />

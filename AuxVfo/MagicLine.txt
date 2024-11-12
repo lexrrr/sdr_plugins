@@ -1,0 +1,12 @@
+One plugin:
+<add key="AuxVFO-1" value="SDRSharp.AuxVFO.AuxVFOPlugin,SDRSharp.AuxVFO" />
+
+or more:
+
+<add key="AuxVFO-2" value="SDRSharp.AuxVFO.AuxVFOPlugin,SDRSharp.AuxVFO" />
+<add key="AuxVFO-3" value="SDRSharp.AuxVFO.AuxVFOPlugin,SDRSharp.AuxVFO" />    
+<add key="AuxVFO-4" value="SDRSharp.AuxVFO.AuxVFOPlugin,SDRSharp.AuxVFO" />
+<add key="AuxVFO-5" value="SDRSharp.AuxVFO.AuxVFOPlugin,SDRSharp.AuxVFO" />
+<add key="AuxVFO-6" value="SDRSharp.AuxVFO.AuxVFOPlugin,SDRSharp.AuxVFO" />    
+<add key="AuxVFO-7" value="SDRSharp.AuxVFO.AuxVFOPlugin,SDRSharp.AuxVFO" />
+<add key="AuxVFO-8" value="SDRSharp.AuxVFO.AuxVFOPlugin,SDRSharp.AuxVFO" />

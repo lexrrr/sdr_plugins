@@ -1,0 +1,6 @@
+<add key="TimeShift" value="SDRSharp.TimeShift.TimeShiftPlugin,SDRSharp.TimeShift" />
+
+Example:
+<sharpPlugins>
+      <add key="TimeShift" 
+      <add key="Other Pligins...

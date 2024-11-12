@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+2019 Feb 13	-	v1.00	Initial release, EM4 and EM84 patterns.
+-------------------------------------------------------------------------------
+2019 Feb 23	-	v1.10	Added 6E5 pattern.
+-------------------------------------------------------------------------------
+2019 Feb 23	-	v1.20	Added AM1, EM1, EM3 eye patterns - code fixes.
+-------------------------------------------------------------------------------
+2019 Feb 24	-	v1.30	Added EM5, EM11, EM35 eye patterns.
+						Added 6H5 eye pattern.
+-------------------------------------------------------------------------------
+2019 May 04	-	v1.40	Added 6EG5, 12UG5G, TI65 eye patterns
+						Added 6T5 pattern.
+						Added 6E5MT, 6ME2, EM71 eye patterns.
+						Some sensitivity corrections & bug fixes.
+-------------------------------------------------------------------------------
+2019 Nov 18	-	v1.46	Added 6GE12A eye pattern.
+						Added analog SNR Meter.
+						Added Hi-Resolution smoothing to all the patterns.
+						Some sensitivity corrections & bug fixes.
+-------------------------------------------------------------------------------
+2019 Nov 19	-	v1.47	Bug fix: A regression in the previous version, v 1.46,
+						made the plug-in not available in the Plugins Panel
+						even if properly installed.
+						This problem was only happening upon:
+							* A fresh SDR# installation, at first time addition
+								of the Magic-Eye plugin.
+							* Existing SDR# installation which ran a previous
+								version of the plugin with specific user
+								settings, when upgrading to version 1.46.
+						Upgrade to latest 1.47 is strongly suggested.
+-------------------------------------------------------------------------------						
+2020 Apr 05	-	v1.50	Added 6E1P, 6BR5, 19BR5, EM80, UM80, Y119 patterns.
+						Added 6DA5, 19DA5, 6DG7, 19DG7, EM81, EM80 patterns.
+						Added EM85, UM85 patterns.
+						Added optional enclosure for the Analog SNR Meters.
+						Added Analog SNR Meter (Lamp)
+						Bug fix: 
+						A bug in the SNR Meter P.I.D. routine caused the
+						pointer to rotate 360 degrees before reaching a stable
+						value. Observed switching different radio devices.
+-------------------------------------------------------------------------------
+2021 Jan 30		-	v1.60	Fixed compatibility with .NET 5.x SDR# Studio, version 1785 and upper.
+							compatible with .NET 4.6
+							Some optimization and graphic improvements.
+-------------------------------------------------------------------------------						
+2021 Aug 21	-	v1.70	Fixed memory leaks, crashing SDR# Studio with version >1812 selecting:
+
+										* 6E5MT, 6ME2, EM71
+										* 6GE12A
+										* 6E1P, (6|19)BR5, (E|U)M80, Y119
+										* (6|19)DA5, (6|19)DG7, (E|U)M81
+										* EM85, UM85
+										* Analog SNR Meter
+										* Analog SNR Meter (Lamp)
+
+-------------------------------------------------------------------------------						

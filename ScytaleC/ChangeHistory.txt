@@ -1,0 +1,79 @@
+﻿5.0.0.3
+	Fixed issue 49: System.ArgumentException for System.Drawing.Bitmap.
+
+5.0.0.1
+	Fixed error that prevented the plugin to run when the installation path was incorrectly read, see: https://groups.io/g/airspy/message/38994
+	QuickUI (married to latest version) is now downloaded and installed by the plugin.
+
+5.0.0.0
+	Converted to .NET 5.0
+	Removed NLog
+	Added button to start QuickUI
+	Builds references in a subfolder called scytalec-lib
+
+1.0.2.13
+	Added the Frame Recorder. The decoded frames are saved to a data folder text file named <sdrsharp-location>\data\frames_YYYY-MM-DD.log, one line per frame:
+		1162 0063686400292732 7D85048A0408206CF0F1790A1C586CB42E36... 
+		|    |                |
+		|    |                Frame data (640 bytes)
+		|    |
+		|    StreamId (16 bytes)
+		|  
+		Frame Number (4 bytes)
+
+	The recorded frames can be played back using the ScytaleC.LiteralHexFeed.exe and displayed in Quick UI as it would be a live feed.
+
+1.0.2.12
+	Fix for #1 issue, out of memory exception on particular RTL-SDR device and sample rate.
+
+1.0.2.9
+	Ensure error log gets created only when needed. Also ensures multiple attempts to recreate the resamplers in case of failure.
+
+1.0.2.8
+	Added logging on errors for the IQ receiver and the UDP tx.
+
+1.0.2.7
+	The auto-tracking does not lock on signal shoulders anymore.
+
+1.0.2.6
+	Adjusted locking point to indicate lock properly when lower SNR.
+
+1.0.2.5
+	Fixed the Lock indicator. Now based on the signal power within Gardner.
+
+1.0.2.4
+	Added output constellation.
+
+1.0.2.1
+	Added Inmarsat-C frame number indicator.
+	Fixed AGC clipping on input signal (gained a bit of SNR).
+	Added logging.
+
+1.0.1.1
+	Corrected the estimated frame duration.
+	Added a hidden debug counter and logging feature activated by right clicking on the tx label.
+
+1.0.1.0
+	Added an estimated frame lost counter.
+	First beta.
+
+1.0.0.9
+	Added the quadrature branch processing to Costas.
+
+1.0.0.5
+	First alpha.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

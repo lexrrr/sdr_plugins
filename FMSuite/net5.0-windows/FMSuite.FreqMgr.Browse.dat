@@ -1,0 +1,74 @@
+Frequency,1,100
+
+Center,2,100
+
+Description,3,300
+
+Call Sign,4,100
+
+Heard,5,100
+
+Mode,6,100
+
+Shift Enabled,7,100
+
+Shift,8,100
+
+Filter Type,9,100
+
+Filter Bandwidth,10,100
+
+Filter Order,11,100
+
+Squelch Enabled,12,100
+
+Squelch,13,100
+
+CW Shift,14,100
+
+Step Size,15,100
+
+Protocol,16,100
+
+Service,17,100
+
+Groups,18,100
+
+Notes,19,100
+
+City,20,100
+
+Country,21,100
+
+Latitude,22,100
+
+Longitude,23,100
+
+Azimuth,24,100
+
+Target,25,100
+
+Start Time,26,100
+
+Stop Time,27,100
+
+Days,28,100
+
+Language,29,100
+
+Power,30,100
+
+Last Update,31,100
+
+Source,32,100
+
+Id,0,100
+
+Locked,33,100
+
+Flagged,34,100
+
+FreqString,35,100
+
+StepSizeValue,36,100
+

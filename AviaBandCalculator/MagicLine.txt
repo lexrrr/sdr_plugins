@@ -1,0 +1,1 @@
+<add key="JarodCalc" value="SDRSharp.JarodCalc.JarodCalcPlugin,SDRSharp.JarodCalc" />
